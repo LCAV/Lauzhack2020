@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ch.heia.mobiledev.beacondetector.BeaconDetailsFragment">
+
+
+    <TextView
+        android:id="@+id/beacon_tx_power"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle"
+        android:text="@string/beacon_power_default"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/beacon_rssi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/beacon_rssi_default"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/beacon_fullid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle"
+        android:text="@string/beacon_fullid_default"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/beacon_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle"
+        android:text="@string/beacon_hint_default"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+</LinearLayout>
