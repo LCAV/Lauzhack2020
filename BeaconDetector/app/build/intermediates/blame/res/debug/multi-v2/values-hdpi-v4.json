@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/duembgen/Documents/Lauzhack2020/BeaconDetector/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/duembgen/.gradle/caches/transforms-2/files-2.1/856f0b1cc961a00ae4132fa263279ede/appcompat-v7-25.3.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}
