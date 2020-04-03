@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/topBarTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <android.opengl.GLSurfaceView
+            android:id="@+id/openGLDemoSurfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/stepCounterTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0     0/0"
+            android:textColor="@android:color/holo_blue_light" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:clickable="true"
+        android:gravity="center"
+        android:focusable="true">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:digits="0123456789."
+            android:gravity="center"
+            android:inputType="number|numberDecimal"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/button_restartsocket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="126dp"
+            android:layout_toEndOf="@+id/editText"
+            android:onClick="onClick"
+            android:text="Socket" />
+
+        <TextView
+            android:id="@+id/offset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText"
+            android:layout_centerVertical="false" />
+
+        <Button
+            android:id="@+id/button_calibration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onClick"
+            android:text="Calibration" />
+
+        <TextView
+            android:id="@+id/scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/offset" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/scale"
+            android:layout_marginTop="-9dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">U-Beacon</string>
+    <string name="beacon_hint_default">Waiting for beacon detection</string>
+    <string name="beacon_power_default">0 dBm</string>
+    <string name="beacon_rssi_default">None dBm</string>
+    <string name="beacon_fullid_default">No ID</string>
+    <string name="udp_ip_saved">160.98.1.1</string>
+    <string name="udp_ip_default">160.98.0.0</string>
+</resources>

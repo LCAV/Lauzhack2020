@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <item name="offset_x_saved" format="float" type="dimen"> 0</item>
+    <item name="offset_y_saved" format="float" type="dimen"> 0</item>
+    <item name="offset_z_saved" format="float" type="dimen"> 0</item>
+    <item name="scale_x_saved" format="float" type="dimen"> 1</item>
+    <item name="scale_y_saved" format="float" type="dimen"> 1</item>
+    <item name="scale_z_saved" format="float" type="dimen"> 1</item>
+</resources>
