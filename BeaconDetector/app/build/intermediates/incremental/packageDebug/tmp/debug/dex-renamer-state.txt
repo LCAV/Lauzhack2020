@@ -1,4 +1,4 @@
-#Fri Apr 03 12:00:51 CEST 2020
+#Fri Apr 03 16:38:14 CEST 2020
 base.0=/home/duembgen/Documents/Lauzhack2020/BeaconDetector/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

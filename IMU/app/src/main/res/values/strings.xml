@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">U-IMU</string>
+    <string name="app_version">5.6</string>
+    <string name="udp_ip_saved">160.98.0.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="offset_saved">offset: 0,0,0</string>
+    <string name="scale_saved">scale: 1,1,1</string>
+
+</resources>
